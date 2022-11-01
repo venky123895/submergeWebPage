@@ -1,0 +1,234 @@
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    position: relative;
+    background-color: rgb(250,229,150);
+    
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+}
+.About{
+    margin-top: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: white;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: white; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: white;}
+
+.name1 {
+    display: inline-block;
+    position: relative;
+    color: 
+  #0087ca;
+  }
+  
+  .name1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    top: 0;
+    left: 0;
+    background-color: 
+  #0087ca;
+    transform-origin: top right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .name1:hover:after {
+    transform: scaleX(1);
+    transform-origin: top left;
+  }
+  .name2 {
+    display: inline-block;
+    position: relative;
+    color: 
+  #0087ca;
+  }
+  
+  .name2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    top: 0;
+    left: 0;
+    background-color: 
+  #0087ca;
+    transform-origin: top right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .name2:hover:after {
+    transform: scaleX(1);
+    transform-origin: top left;
+  }
+  .About {
+    display: inline-block;
+    position: relative;
+    color: 
+  #0087ca;
+  }
+  
+  .About:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    top: 0;
+    left: 0;
+    background-color: 
+  #0087ca;
+    transform-origin: top right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .About:hover:after {
+    transform: scaleX(1);
+    transform-origin: top left;
+  }
+  .name4 {
+    display: inline-block;
+    position: relative;
+    color: 
+  #0087ca;
+  }
+  
+  .name4:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    top: 0;
+    left: 0;
+    background-color: 
+  #0087ca;
+    transform-origin: top right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .name4:hover:after {
+    transform: scaleX(1);
+    transform-origin: top left;
+  }
+  .name5 {
+    display: inline-block;
+    position: relative;
+    color: 
+  #0087ca;
+  }
+  
+  .name5:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    top: 0;
+    left: 0;
+    background-color: 
+  #0087ca;
+    transform-origin: top right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .name5:hover:after {
+    transform: scaleX(1);
+    transform-origin: top left;
+  }
+  .body{
+    display: flex;
+  }
+  .leftBox{
+    width: 50%;
+    height: 500px;
+    
+    padding: 50px;
+  }
+  .rightBox{
+    padding: 50px;
+  }
+  .person{
+    width: 300px;
+    height: 300px;
+  }
+  .logos{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+  .instagram{
+    width: 30px;
+    height: 30px;
+  }
+  .cloud{
+    width: 30px;
+    height: 30px;
+  }
+  .facebook{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+  }
+  .facebook:hover{
+    background-color: blue;
+  }
+  .cloud:hover{
+    background-color: blue;
+  }
+  .instagram:hover{
+    background-color: blue;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    background-color: rgb(69,69,69);
+    height: 100px;
+  }
+.but1{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+}
+.but2{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+}
+.but1:hover{
+    color: green;
+}
+.but2:hover{
+    color: green;
+}
